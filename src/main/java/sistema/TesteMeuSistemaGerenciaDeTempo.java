@@ -1,4 +1,5 @@
 package sistema;
+import java.util.List;
 public class TestaMeuSistemaGerenciaDeTempo {
     public static void main(String[] args) {
         SistemaGerenciaDeTempo sistema = new MeuSistemaGerenciaDeTempo();
@@ -10,6 +11,6 @@ public class TestaMeuSistemaGerenciaDeTempo {
         for (Tarefa f : tarefasEstudo) {
             System.out.println(f.toString());
         }
-        //TODO: completar a partir daqui
+
     }
 }

@@ -2,7 +2,7 @@ package sistema;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MeuSistemaGerenciaDeTempo implements SistemaGerenciaDeTempo {
+public class MeuSistemaGerenciaDeTempo implements SistemaGerenciaTempo {
     private List<Tarefa> tarefas;
 
     public MeuSistemaGerenciaDeTempo() {
