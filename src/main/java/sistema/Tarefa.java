@@ -22,7 +22,7 @@ public class Tarefa {
     }
 
     public String toString(){
-        return "Tarefa " + this.descricao+ "com duração de "+ this.tempoTarefaEmMinutos;
+        return "Tarefa " + this.descricao+ " com duração de "+ this.tempoTarefaEmMinutos;
     }
 
 }

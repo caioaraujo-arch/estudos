@@ -1,7 +1,7 @@
 package sistema;
 import java.util.List;
 
-public interface SistemaGerenciaTempo {
+public interface SistemaGerenciaDeTempo {
     public void cadastrarTarefa(String descricao, String categoria, int tempoMinutos);
     public List<Tarefa> pesquisarTarefasDaCategoria(String categoria);
     public List<Tarefa> pesquisarTarefasQueDuraramMaisDe(int tempoMinutos);

@@ -1,6 +1,6 @@
 package sistema;
 import java.util.List;
-public class TestaMeuSistemaGerenciaDeTempo {
+public class TesteMeuSistemaGerenciaDeTempo {
     public static void main(String[] args) {
         SistemaGerenciaDeTempo sistema = new MeuSistemaGerenciaDeTempo();
         sistema.cadastrarTarefa("Estudar LP", "Estudo", 120);
