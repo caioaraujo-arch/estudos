@@ -10,7 +10,19 @@ public class Tarefa {
         this.categoria= categoria;
         this.tempoTarefaEmMinutos=tempoTarefaEmMinutos;
     }
-    public String toString(){
-        return "tarefa" + this.descricao+ "com duração de "+ this.tempoTarefaEmMinutos;
+    public String getDescricao(){
+        return this.descricao;
     }
+    public String getCategoria(){
+        return this.categoria;
+    }
+
+    public int getTempotarefaEmMinutos(){
+        return this.tempoTarefaEmMinutos;
+    }
+
+    public String toString(){
+        return "Tarefa" + this.descricao+ "com duração de "+ this.tempoTarefaEmMinutos;
+    }
+
 }
