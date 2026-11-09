@@ -11,6 +11,11 @@ public class TesteMeuSistemaGerenciaDeTempo {
         for (Tarefa f : tarefasEstudo) {
             System.out.println(f.toString());
         }
+        List<Tarefa> guardarTarefasEstudos = sistema.pesquisarTarefasDaCategoria("Estudo");
+        for(Tarefa i: guardarTarefasEstudos){
+            System.out.println(i.getDescricao());
+
+        }
 
     }
 }

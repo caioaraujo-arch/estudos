@@ -8,7 +8,7 @@ public class Tarefa {
     public Tarefa (String descricao, String categoria, int tempoTarefaEmMinutos){
         this.descricao= descricao;
         this.categoria= categoria;
-        this.tempoTarefaEmMinutos=tempoTarefaEmMinutos;
+            this.tempoTarefaEmMinutos=tempoTarefaEmMinutos;
     }
     public String getDescricao(){
         return this.descricao;
